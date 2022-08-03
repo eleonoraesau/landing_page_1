@@ -1,0 +1,93 @@
+body {
+  background-color: black;
+  color: white;
+  line-height: normal;
+}
+
+p {
+  font-size: 20px;
+}
+
+.web_link {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 15px;
+  text-align: center;
+  background-color: rgba(166, 165, 165, 0.5);
+  padding: 3px;
+}
+
+.insta_link{
+  color: white;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+a:hover {
+  color:#A0EADE;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+}
+
+img {
+  border-radius: 20%;
+  box-shadow: 2px 2px 3px black;
+}
+
+.p_card {
+  top: 20px;
+  width: 700px;
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-family: monospace;
+  text-align: center;
+  border: 2px solid grey;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 15px auto;
+}
+
+.b_card {
+  width: 300px;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  bottom: 10px;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  width: auto;
+  font-family: monospace;
+  text-align: center;
+  font-size: larger;
+  padding-left: 10px;
+  margin: 15px auto;
+  border: 2px solid grey;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
